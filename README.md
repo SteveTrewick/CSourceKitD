@@ -1,3 +1,3 @@
 # CSourceKitD
 
-A description of this package.
+Just a module map for sourcekitd header
