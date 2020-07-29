@@ -1,0 +1,4 @@
+module CSourceKitD {
+	header "sourcekitd.h"
+	export *
+}

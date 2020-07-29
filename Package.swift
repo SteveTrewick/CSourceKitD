@@ -5,11 +5,11 @@ import PackageDescription
 
 let package = Package(
     name: "CSourceKitD",
-    pkgConfig : "sourcekitd",
+    //pkgConfig : "sourcekitd",
     products: [
-    	.library(name: "CSourceKitD", targets: "CSourceKitD")
+    	.library(name: "CSourceKitD", targets: ["CSourceKitD"])
     ],
     targets: [
-    	.target(name: "CSourceKitD", dependencies: [])
+    	.systemLibrary(name: "CSourceKitD", path: "Sources")
     ]
 )
